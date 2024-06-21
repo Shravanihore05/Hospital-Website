@@ -1,0 +1,81 @@
+/* Hospital name */
+.lxgw-wenkai-mono-tc-regular {
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* carousel  */
+.carousel-item{
+    height: 600px;
+} 
+.carousel-item img{
+    height: 600px;
+}
+
+
+/* cards */
+.card {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+
+/* footer */
+        body { 
+            color: white; 
+        } 
+  
+        .footer { 
+            background-color:#198754; 
+        } 
+  
+        .footer-content h2 { 
+            color: #fff; 
+        } 
+  
+        .footer-content h5, 
+        .footer-content p, 
+        .footer-links a { 
+            color:black; 
+        } 
+  
+        .footer-links a:hover { 
+            text-decoration: underline; 
+        } 
+  
+        .footer hr { 
+            background-color: #fff; 
+        } 
+    
+
+
+/* services */
+.service{
+  text-align: center;
+}
+
+
+/* blog */
+.blog-post {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+
+/* contact */
+.container {
+   max-width: 800px; 
+   margin: 50px auto;
+    padding: 20px;
+     background-color: #fff; 
+     border-radius: 10px;
+     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+     }
+
+
+     

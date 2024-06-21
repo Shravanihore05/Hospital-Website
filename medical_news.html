@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical News</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .news-card {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .news-title {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .news-date {
+            font-size: 0.8em;
+        }
+
+        .news-content {
+            margin-top: 10px;
+        }
+
+        .news-link {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .news-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" data-aos="fade-up"
+    data-aos-duration="3000">
+        <h1 class="text-center">Latest Medical News</h1>
+
+        <!-- News Card 1 -->
+        <div class="news-card" data-aos="fade-up"
+        data-aos-duration="3000">
+            <h2 class="news-title">Study shows benefits of regular exercise for heart health</h2>
+            <p class="news-date">Published on October 15, 2021</p>
+            <p class="news-content">A recent study published in the Journal of Cardiology found that regular exercise can significantly reduce the risk of heart disease and improve overall heart health. Researchers recommend at least 30 minutes of moderate exercise each day to see these benefits.</p>
+            <a href="https://www.medicalnewstoday.com/articles/exercise-may-reduce-heart-disease-risk-changing-how-brain-reacts-stress#:~:text=Physical%20activity%20can%20help%20reduce,lower%20risk%20of%20heart%20disease." class="news-link">Read more</a>
+        </div>
+
+        <!-- News Card 2 -->
+        <div class="news-card" data-aos="fade-up"
+        data-aos-duration="3000">
+            <h2 class="news-title">New drug shows promise in treating common cold</h2>
+            <p class="news-date">Published on October 20, 2021</p>
+            <p class="news-content">A new drug developed by researchers at our hospital has shown promising results in treating the common cold. The drug, named ColdCure, targets the underlying virus causing the cold and helps reduce symptoms in patients.</p>
+            <a href="https://www.bbc.com/news/health-44107481" class="news-link">Read more</a>
+        </div>
+
+        <!-- News Card 3 -->
+        <div class="news-card" data-aos="fade-up"
+        data-aos-duration="3000">
+            <h2 class="news-title">FDA approves new cancer treatment for pediatric patients</h2>
+            <p class="news-date">Published on October 25, 2021</p>
+            <p class="news-content">The FDA has recently approved a new cancer treatment specifically designed for pediatric patients. The treatment, called KidCancerTreat, is a targeted therapy that aims to improve outcomes and reduce side effects in young cancer patients.</p>
+            <a href="https://www.healio.com/news/hematology-oncology/20240530/fda-grants-retevmo-accelerated-approval-for-pediatric-patients-with-thyroid-cancer" class="news-link">Read more</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- animation js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
